@@ -11,4 +11,5 @@ class Database:
         )
 
 class Model:
-    pass
+    def __init__(self, x, y, z):
+        self.x = x
